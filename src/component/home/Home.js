@@ -1,4 +1,5 @@
 import React from 'react';
+import Tabs from '../Tabs/Tabs';
 
 const Home = () => {
   const handleLogout = () => {
@@ -9,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <h2>Welcome to the Home Page</h2>
+      <Tabs />
       <button onClick={handleLogout}>Logout</button>
     </div>
   );

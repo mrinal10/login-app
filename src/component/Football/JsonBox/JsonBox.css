@@ -1,0 +1,15 @@
+.json-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.json-item {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+  
